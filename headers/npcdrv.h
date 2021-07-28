@@ -95,7 +95,9 @@ typedef struct {
 /* 0x57C */ u32 templateField0x5C; // field 0x5c of spawning SetupEnemyTemplate (unknown for non-templated NPCs)
 /* 0x580 */ u32 templateField0x60; // field 0x60 of spawning SetupEnemyTemplate (unknown for non-templated NPCs)
 /* 0x584 */ u32 templateField0x64; // field 0x64 of spawning SetupEnemyTemplate (unknown for non-templated NPCs)
-/* 0x588 */ // unknown 0x588-0x713
+/* 0x588 */ // unknown 0x588-61b
+/* 0x61C */ s16 templateField0x1C;
+/* 0x61E */ // unknown 0x61e-713
 /* 0x714 */ NPCPart * parts; // made from tribe's NPCPartDef list, linked list
 /* 0x718 */ EvtScriptCode * templateUnkScript10; // unkScript10 from spawning SetupEnemyTemplate (unknown for non-templated NPCs)
 /* 0x71C */ // unknown 0x71c-747
